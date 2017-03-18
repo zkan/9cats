@@ -6,8 +6,17 @@
   "repository": "git@github.com:zkan/9cats.git",
   "author": "Kan Ouivirach <kan@prontomarketing.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.2.1"
   }
 }
